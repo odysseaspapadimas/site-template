@@ -1,0 +1,28 @@
+{
+  "fields": [
+    {
+      "name": "heroTitle",
+      "label": "Hero Title",
+      "type": "text",
+      "description": "The main headline on the homepage."
+    },
+    {
+      "name": "heroSubtitle",
+      "label": "Hero Subtitle",
+      "type": "textarea",
+      "description": "The smaller text below the main headline."
+    },
+    {
+      "name": "ctaText",
+      "label": "Call to Action Button Text",
+      "type": "text",
+      "description": "The text for the main call-to-action button."
+    },
+    {
+      "name": "ctaLink",
+      "label": "Call to Action Button Link",
+      "type": "url",
+      "description": "The URL the button should link to. Example: /contact"
+    }
+  ]
+}
