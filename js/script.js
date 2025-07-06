@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const heroTitleElement = document.getElementById('hero-title');
     const heroSubtitleElement = document.getElementById('hero-subtitle');
-    const ctaButtonElement = document.getElementById('cta-button');
+    const ctaButtonElement = document.getElementById('hero-cta-button');
 
     if (heroTitleElement) {
         heroTitleElement.textContent = heroTitle || 'Welcome';
